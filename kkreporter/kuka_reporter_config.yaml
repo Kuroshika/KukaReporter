@@ -1,0 +1,17 @@
+sender: example@example.com
+receiver: example@example.com
+
+# The unit is minutes. for example:
+# reporting_interval: 30 means 30min
+reporting_interval: 30
+
+smtp_server: smtp.example.com
+smtp_password:
+
+# The function of the log_lines parameter is to control the
+#  length of the log content included in the report.
+#  The data type is a non-negative number.
+#  Inputting 10 means that the last 10 lines of the log will be sent,
+#  inputting 20 means that the last 20 lines of the log will be sent,
+#  and inputting 0 means that the complete log will be sent.
+log_lines: 20
