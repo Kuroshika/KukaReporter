@@ -2,6 +2,7 @@
 
 A tool for sending logs via email at regular intervals during model training, to conveniently check the progress and status of the model training process.
 
+> <a href="https://github.com/Kuroshika/KukaReporter/blob/master/README_ZH.md"> 中文版README</a>
 ## Installation
 The third-party libraries required for this tool are as follows:
 ```shell
